@@ -2,9 +2,6 @@
 
 > An interactive, dual-hand tracked 3D particle physics engine built with Three.js and MediaPipe. Inspired by the gravity-bending physics of Nolan's *Interstellar*.
 
-![Preview Placeholder](https://via.placeholder.com/800x400?text=Drop+a+GIF+of+your+project+in+action+here!) 
-*(Pro-tip: Record a quick screen capture of you controlling the particles and replace this image link!)*
-
 I built this as an experiment to see how fluid and responsive browser-based motion tracking could feel when paired with thousands of particles. Instead of just making a passive visualizer, I wanted a digital space you could actually "touch" and manipulate with real-world physics.
 
 If your camera fails, is blocked, or you just want to test it out quickly without granting permissions, the engine will automatically fall back to a mouse-controlled physics mode after a 4-second timeout.
