@@ -40,4 +40,4 @@ You need to serve it over localhost.
 
 1. Clone this repo:
    ```bash
-   git clone [https://github.com/YOUR-USERNAME/Gargantua.git](https://github.com/YOUR-USERNAME/Gargantua.git)
+   git clone [https://github.com/Uditpandya07/Gargantua.git](https://github.com/Uditpandya07/Gargantua.git)
