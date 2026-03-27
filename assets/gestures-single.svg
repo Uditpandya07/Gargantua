@@ -1,0 +1,31 @@
+<svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes float-up { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      .gesture-box { animation: float-up 3s ease-in-out infinite; }
+      .gesture-box-1 { animation: float-up 3s ease-in-out infinite; animation-delay: 0s; }
+      .gesture-box-2 { animation: float-up 3s ease-in-out infinite; animation-delay: 0.5s; }
+      .gesture-box-3 { animation: float-up 3s ease-in-out infinite; animation-delay: 1s; }
+    </style>
+  </defs>
+  
+  <rect width="600" height="200" fill="#0a0a0f"/>
+  
+  <g class="gesture-box-1">
+    <rect x="20" y="40" width="140" height="120" fill="#00f0ff" fill-opacity="0.05" stroke="#00ff88" stroke-width="2" rx="8"/>
+    <text x="90" y="105" font-size="48" text-anchor="middle" fill="#00ff88" font-weight="bold">🤏</text>
+    <text x="90" y="155" font-size="12" text-anchor="middle" fill="#8b8ba8" font-family="monospace" font-weight="600">PINCH</text>
+  </g>
+  
+  <g class="gesture-box-2">
+    <rect x="230" y="40" width="140" height="120" fill="#00f0ff" fill-opacity="0.05" stroke="#a78bfa" stroke-width="2" rx="8"/>
+    <text x="300" y="105" font-size="48" text-anchor="middle" fill="#a78bfa" font-weight="bold">✊</text>
+    <text x="300" y="155" font-size="11" text-anchor="middle" fill="#8b8ba8" font-family="monospace" font-weight="600">GRAVITY WELL</text>
+  </g>
+  
+  <g class="gesture-box-3">
+    <rect x="440" y="40" width="140" height="120" fill="#00f0ff" fill-opacity="0.05" stroke="#ff3d7f" stroke-width="2" rx="8"/>
+    <text x="510" y="105" font-size="48" text-anchor="middle" fill="#ff3d7f" font-weight="bold">👋</text>
+    <text x="510" y="155" font-size="12" text-anchor="middle" fill="#8b8ba8" font-family="monospace" font-weight="600">SWIPE</text>
+  </g>
+</svg>
